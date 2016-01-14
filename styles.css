@@ -168,6 +168,7 @@ background-size: 65%;
 float: left;
 margin-top: -200px;
 z-index: 3;
+pointer-events: none;
 }
 
 .left {
@@ -242,3 +243,12 @@ ul#horizontal-list {
 	ul#horizontal-list li {
 		display: inline;
 	}
+
+	.site-pic {
+	   height: 120px;
+	width: 225px;
+	overflow: hidden;
+	float: left;
+	margin-top: 15px;
+	}
+	.site-pic img {height: 100%; width: auto;}
